@@ -1,0 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* header banner style start */
+.banner-secton img{
+    width: 1320px;
+    height: 600px;
+    margin: 50px 15%;
+}
+/* header banner style end */
