@@ -46,4 +46,53 @@
     font-style: italic;
 }
 
+
 /* header banner style end */
+
+/* new year category style start */
+
+.category-section{
+    position: relative;
+}
+.category{
+    position: relative;
+    margin: 50px 38%;
+}
+.category h1{
+    margin-bottom: 40px;
+    font-size: 85px;
+    font-weight: 800;
+    color: #FF0000;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+.category h4{
+    margin-bottom: 25px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    color: #FF0000;
+    font-size: 24px;
+    font-weight: medium;
+    font-style: normal;
+
+}
+.category h2{
+    color: #070211;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 48px;
+    font-weight: bold;
+    font-style: normal;
+
+}
+.category-image{
+    margin: 15px 28%;
+    position: absolute;
+    right: 0px;
+    left: 0;
+}
+
+
+/* new year category style end */
+
