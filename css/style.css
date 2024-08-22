@@ -121,7 +121,8 @@ img.year2024Img {
     position: relative;
     margin-top: 100px;
 }
-.midnight-party img{
+
+.midnight-party img {
     filter: brightness(50%);
 }
 
@@ -187,15 +188,17 @@ img.year2024Img {
 
 /* hotel discription start */
 
-.place{
+.place {
     margin: 150px 0px;
     line-height: 55px;
     text-align: center;
 }
-.place h1 span{
+
+.place h1 span {
     color: #FF0000;
 }
-.place h1{
+
+.place h1 {
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
     font-size: 32px;
@@ -205,7 +208,8 @@ img.year2024Img {
 
 .btn-hover.color-11 {
     margin-top: 80px;
-    background-image: linear-gradient(to right, #eb3941, #f15e64, #e14e53, #e2373f);  box-shadow: 0 5px 15px rgba(242, 97, 103, .4);
+    background-image: linear-gradient(to right, #eb3941, #f15e64, #e14e53, #e2373f);
+    box-shadow: 0 5px 15px rgba(242, 97, 103, .4);
 }
 
 /* hotel discription end */
@@ -214,12 +218,13 @@ img.year2024Img {
 
 /* new best offer start */
 
-.best-offer{
+.best-offer {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.offer h3{
+
+.offer h3 {
     color: #FF0000;
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
@@ -228,16 +233,18 @@ img.year2024Img {
     margin-bottom: 20px;
     font-style: normal;
 }
-.offer h1{
+
+.offer h1 {
     font-family: "Merriweather", serif;
     color: #070211;
     font-size: 48px;
-    font-weight:  900 ;
+    font-weight: 900;
     margin-bottom: 20px;
     font-style: normal;
 }
-.offer p{
-    color: #818082 ;
+
+.offer p {
+    color: #818082;
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
     font-size: 20px;
@@ -258,7 +265,7 @@ img.year2024Img {
     width: 100%;
 }
 
-.year h1{
+.year h1 {
     color: #FF0000;
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
@@ -267,24 +274,31 @@ img.year2024Img {
     margin-bottom: 20px;
     font-style: normal;
 }
-.year p{
-    color: #818082 ;
+
+.year p {
+    color: #818082;
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
     font-size: 20px;
     font-weight: 13;
-    margin-bottom: 20px;    
+    margin-bottom: 20px;
     font-style: normal;
 }
+
 /* new best offer end */
 
 /* what is function start */
 
-.holidays{
+.middle-main {
+    width: 100%;
+}
+
+.holidays {
     text-align: center;
     margin-top: 130px;
 }
-.holidays h3{
+
+.holidays h3 {
     color: #070211;
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
@@ -293,51 +307,63 @@ img.year2024Img {
     margin-bottom: 20px;
     font-style: normal;
 }
-.holidays h1{
+
+.holidays h1 {
     font-family: "Merriweather", serif;
     font-size: 72px;
-    font-weight:  900 ;
+    font-weight: 900;
     margin-bottom: 20px;
     font-style: normal;
 }
-.holidays h1 span{
+
+.holidays h1 span {
     color: #FF0000;
 }
-.holidays p{
-    color: #818082 ;
+
+.holidays p {
+    color: #818082;
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
     font-size: 20px;
     font-weight: 10;
-    margin-bottom: 20px;    
+    margin-bottom: 20px;
     font-style: normal;
 }
 
-.main-discount{
+.main-discount {
     position: relative;
 }
-.shop-girl img{
+
+.shop-girl img {
     position: absolute;
     right: 0;
     transform: translateY(70px);
 }
-.discount img{
+
+.discount img {
     position: absolute;
     right: 280px;
     transform: translateY(160px);
 }
-.red img{
+
+.red img {
     transform: translateY(219.8%);
 }
-.gift-box img{
+
+.gift-box img {
     position: absolute;
     transform: translateY(-150px);
 }
+
 /* what is function end */
 
 /* our awesome portfolio start */
 
-.portfolio h3{
+.awesome-portfolio {
+    position: relative;
+}
+
+.portfolio h3 {
     color: #FF0000;
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
@@ -346,28 +372,211 @@ img.year2024Img {
     margin-bottom: 20px;
     font-style: normal;
 }
-.portfolio h1{
+
+.portfolio h1 {
     font-family: "Merriweather", serif;
     color: #070211;
     font-size: 48px;
-    font-weight:  900 ;
+    font-weight: 900;
     margin-bottom: 20px;
     font-style: normal;
 }
-.portfolio p{
-    color: #818082 ;
+
+.portfolio p {
+    color: #818082;
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
     font-size: 20px;
     font-weight: 13;
     font-style: normal;
 }
-.awesome-portfolio{
-    position: relative;
-}
-.portfolio{
+
+.portfolio {
     position: absolute;
     transform: translateY(350%);
 }
 
+.portfolio-image {
+    position: absolute;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 50px;
+    column-count: 3;
+    column-gap: 16px;
+    row-gap: 16px;
+    transform: translateY(90%);
+}
+
+
+.portfolio-image .image-1 img {
+    -webkit-filter: grayscale(0) blur(0);
+    filter: grayscale(0) blur(0);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+
+.portfolio-image .image-1:hover img {
+    -webkit-filter: grayscale(100%) blur(3px);
+    filter: grayscale(100%) blur(3px);
+}
+
+.portfolio-image .image-2 img {
+    -webkit-filter: grayscale(0) blur(0);
+    filter: grayscale(0) blur(0);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+
+.portfolio-image .image-2:hover img {
+    -webkit-filter: grayscale(100%) blur(3px);
+    filter: grayscale(100%) blur(3px);
+}
+
+.portfolio-image .image-3 img {
+    -webkit-filter: grayscale(0) blur(0);
+    filter: grayscale(0) blur(0);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+
+.portfolio-image .image-3:hover img {
+    -webkit-filter: grayscale(100%) blur(3px);
+    filter: grayscale(100%) blur(3px);
+}
+
+.portfolio-image .image-4 img {
+    -webkit-filter: grayscale(0) blur(0);
+    filter: grayscale(0) blur(0);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+
+.portfolio-image .image-4:hover img {
+    -webkit-filter: grayscale(100%) blur(3px);
+    filter: grayscale(100%) blur(3px);
+}
+
+.portfolio-image .image-5 img {
+    -webkit-filter: grayscale(0) blur(0);
+    filter: grayscale(0) blur(0);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+
+.portfolio-image .image-5:hover img {
+    -webkit-filter: grayscale(100%) blur(3px);
+    filter: grayscale(100%) blur(3px);
+}
+
+.portfolio-image .image-6 img {
+    -webkit-filter: grayscale(0) blur(0);
+    filter: grayscale(0) blur(0);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+
+.portfolio-image .image-6:hover img {
+    -webkit-filter: grayscale(100%) blur(3px);
+    filter: grayscale(100%) blur(3px);
+}
+
 /* our awesome portfolio end */
+
+/* subscribe newsletter start */
+
+.newsletter{
+    text-align: center;
+    position: relative;
+    position: absolute;
+    right: 0px;
+    left: 0;
+    transform: translateY(260%);
+}
+.email img{
+    margin-bottom: 30px;
+}
+.newsletter-title h1 {
+    font-family: "Merriweather", serif;
+    color: #070211;
+    font-size: 58px;
+    font-weight: 900;
+    margin-bottom: 20px;
+    font-style: normal;
+}
+
+.newsletter-title p {
+    color: #818082;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 20px;
+    margin-bottom: 40px;
+    font-weight: 13;
+    font-style: normal;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Input Field Styles */
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #333;
+}
+
+input[type="text"],
+input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus {
+    border-color: #007BFF;
+    outline: none;
+}
+
+/* Placeholder Styles */
+input::placeholder {
+    color: #aaa;
+}
+
+/* Button Styles */
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* subscribe newsletter end */
+
+
+/* start footer section */
+
+
+
+/* end footer section */
