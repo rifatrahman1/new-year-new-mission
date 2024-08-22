@@ -187,6 +187,11 @@ img.year2024Img {
 
 /* hotel discription start */
 
+.place{
+    margin: 150px 0px;
+    line-height: 55px;
+    text-align: center;
+}
 .place h1 span{
     color: #FF0000;
 }
@@ -198,18 +203,51 @@ img.year2024Img {
     font-style: normal;
 }
 
-.btn-hover.color-4 {
-    background-image: linear-gradient(to right, #667eea, #764ba2, #6B8DD6, #8E37D7);
-    box-shadow: 0 4px 15px 0 rgba(116, 79, 168, 0.75);
+.btn-hover.color-11 {
+    margin-top: 80px;
+    background-image: linear-gradient(to right, #eb3941, #f15e64, #e14e53, #e2373f);  box-shadow: 0 5px 15px rgba(242, 97, 103, .4);
 }
 
 /* hotel discription end */
 
 /* welcome midnight section end */
 
-/* .circle {
-    width: 300px;
-    height: 300px;
+/* new best offer start */
+
+.best-offer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.offer h3{
+    color: #FF0000;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 24px;
+    font-weight: 45;
+    margin-bottom: 20px;
+    font-style: normal;
+}
+.offer h1{
+    font-family: "Merriweather", serif;
+    color: #070211;
+    font-size: 48px;
+    font-weight:  900 ;
+    margin-bottom: 20px;
+    font-style: normal;
+}
+.offer p{
+    color: #818082 ;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 20px;
+    font-weight: 13;
+    font-style: normal;
+}
+
+.circle {
+    width: 463px;
+    height: 463px;
     background-color: #ff634700;
     border: 15px solid rgb(186, 7, 7);
     border-radius: 50%;
@@ -218,4 +256,118 @@ img.year2024Img {
 
 .circle img {
     width: 100%;
-} */
+}
+
+.year h1{
+    color: #FF0000;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    font-style: normal;
+}
+.year p{
+    color: #818082 ;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 20px;
+    font-weight: 13;
+    margin-bottom: 20px;    
+    font-style: normal;
+}
+/* new best offer end */
+
+/* what is function start */
+
+.holidays{
+    text-align: center;
+    margin-top: 130px;
+}
+.holidays h3{
+    color: #070211;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 24px;
+    font-weight: 40;
+    margin-bottom: 20px;
+    font-style: normal;
+}
+.holidays h1{
+    font-family: "Merriweather", serif;
+    font-size: 72px;
+    font-weight:  900 ;
+    margin-bottom: 20px;
+    font-style: normal;
+}
+.holidays h1 span{
+    color: #FF0000;
+}
+.holidays p{
+    color: #818082 ;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 20px;
+    font-weight: 10;
+    margin-bottom: 20px;    
+    font-style: normal;
+}
+
+.main-discount{
+    position: relative;
+}
+.shop-girl img{
+    position: absolute;
+    right: 0;
+    transform: translateY(70px);
+}
+.discount img{
+    position: absolute;
+    right: 280px;
+    transform: translateY(160px);
+}
+.red img{
+    transform: translateY(219.8%);
+}
+.gift-box img{
+    position: absolute;
+    transform: translateY(-150px);
+}
+/* what is function end */
+
+/* our awesome portfolio start */
+
+.portfolio h3{
+    color: #FF0000;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 24px;
+    font-weight: 45;
+    margin-bottom: 20px;
+    font-style: normal;
+}
+.portfolio h1{
+    font-family: "Merriweather", serif;
+    color: #070211;
+    font-size: 48px;
+    font-weight:  900 ;
+    margin-bottom: 20px;
+    font-style: normal;
+}
+.portfolio p{
+    color: #818082 ;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 20px;
+    font-weight: 13;
+    font-style: normal;
+}
+.awesome-portfolio{
+    position: relative;
+}
+.portfolio{
+    position: absolute;
+    transform: translateY(350%);
+}
+
+/* our awesome portfolio end */
