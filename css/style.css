@@ -187,9 +187,13 @@ img.year2024Img {
 }
 
 /* hotel discription start */
-
 .place {
-    margin: 150px 0px;
+    padding-top: 90px;
+    height: 482px;
+    width: 1320px;
+    margin: 90px 0px;
+    border-radius: 15px;
+    background: linear-gradient(rgb(241, 205, 241), rgb(246, 246, 241));
     line-height: 55px;
     text-align: center;
 }
@@ -490,6 +494,7 @@ img.year2024Img {
     position: absolute;
     right: 0px;
     left: 0;
+    background-color: rgb(224, 212, 196);
     transform: translateY(170%);
 }
 
