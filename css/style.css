@@ -489,13 +489,16 @@ img.year2024Img {
 /* subscribe newsletter start */
 
 .newsletter {
+    display: fixed;
     text-align: center;
     position: relative;
     position: absolute;
+    height: 780px;
+    padding: 22px 0;
     right: 0px;
     left: 0;
-    background-color: rgb(224, 212, 196);
-    transform: translateY(170%);
+    background-color: antiquewhite;
+    transform: translateY(155%);
 }
 
 .email img {
