@@ -334,24 +334,24 @@ img.year2024Img {
     position: relative;
 }
 
-.shop-girl img {
+.shop-girl {
     position: absolute;
     right: 0;
     transform: translateY(70px);
 }
 
-.discount img {
+.discount {
     position: absolute;
     right: 280px;
     transform: translateY(160px);
 }
 
-.red img {
+.red {
     transform: translateY(219.8%);
 }
 
-.gift-box img {
-    position: absolute;
+.gift-box {
+    /* position: absolute; */
     transform: translateY(-150px);
 }
 
@@ -393,7 +393,7 @@ img.year2024Img {
 
 .portfolio {
     position: absolute;
-    transform: translateY(350%);
+    transform: translateY(-29%);
 }
 
 .portfolio-image {
@@ -404,78 +404,78 @@ img.year2024Img {
     column-count: 3;
     column-gap: 16px;
     row-gap: 16px;
-    transform: translateY(90%);
+    transform: translateY(18%);
 }
 
 
-.portfolio-image .image-1 img {
+.portfolio-image .image-1 {
     -webkit-filter: grayscale(0) blur(0);
     filter: grayscale(0) blur(0);
     -webkit-transition: .3s ease-in-out;
     transition: .3s ease-in-out;
 }
 
-.portfolio-image .image-1:hover img {
+.portfolio-image .image-1:hover {
     -webkit-filter: grayscale(100%) blur(3px);
     filter: grayscale(100%) blur(3px);
 }
 
-.portfolio-image .image-2 img {
+.portfolio-image .image-2 {
     -webkit-filter: grayscale(0) blur(0);
     filter: grayscale(0) blur(0);
     -webkit-transition: .3s ease-in-out;
     transition: .3s ease-in-out;
 }
 
-.portfolio-image .image-2:hover img {
+.portfolio-image .image-2:hover {
     -webkit-filter: grayscale(100%) blur(3px);
     filter: grayscale(100%) blur(3px);
 }
 
-.portfolio-image .image-3 img {
+.portfolio-image .image-3 {
     -webkit-filter: grayscale(0) blur(0);
     filter: grayscale(0) blur(0);
     -webkit-transition: .3s ease-in-out;
     transition: .3s ease-in-out;
 }
 
-.portfolio-image .image-3:hover img {
+.portfolio-image .image-3:hover {
     -webkit-filter: grayscale(100%) blur(3px);
     filter: grayscale(100%) blur(3px);
 }
 
-.portfolio-image .image-4 img {
+.portfolio-image .image-4 {
     -webkit-filter: grayscale(0) blur(0);
     filter: grayscale(0) blur(0);
     -webkit-transition: .3s ease-in-out;
     transition: .3s ease-in-out;
 }
 
-.portfolio-image .image-4:hover img {
+.portfolio-image .image-4:hover {
     -webkit-filter: grayscale(100%) blur(3px);
     filter: grayscale(100%) blur(3px);
 }
 
-.portfolio-image .image-5 img {
+.portfolio-image .image-5 {
     -webkit-filter: grayscale(0) blur(0);
     filter: grayscale(0) blur(0);
     -webkit-transition: .3s ease-in-out;
     transition: .3s ease-in-out;
 }
 
-.portfolio-image .image-5:hover img {
+.portfolio-image .image-5:hover {
     -webkit-filter: grayscale(100%) blur(3px);
     filter: grayscale(100%) blur(3px);
 }
 
-.portfolio-image .image-6 img {
+.portfolio-image .image-6 {
     -webkit-filter: grayscale(0) blur(0);
     filter: grayscale(0) blur(0);
     -webkit-transition: .3s ease-in-out;
     transition: .3s ease-in-out;
 }
 
-.portfolio-image .image-6:hover img {
+.portfolio-image .image-6:hover {
     -webkit-filter: grayscale(100%) blur(3px);
     filter: grayscale(100%) blur(3px);
 }
@@ -484,17 +484,19 @@ img.year2024Img {
 
 /* subscribe newsletter start */
 
-.newsletter{
+.newsletter {
     text-align: center;
     position: relative;
     position: absolute;
     right: 0px;
     left: 0;
-    transform: translateY(260%);
+    transform: translateY(170%);
 }
-.email img{
+
+.email img {
     margin-bottom: 30px;
 }
+
 .newsletter-title h1 {
     font-family: "Merriweather", serif;
     color: #070211;
@@ -575,8 +577,50 @@ button:hover {
 /* subscribe newsletter end */
 
 
+
+
 /* start footer section */
+footer.footer {
+    background-color: black;
+    color: white;
+    padding: 50px 0; 
+}
+.footerAddress{
+    display: flex;
+    margin-top: 80px;
+    justify-content: space-between;
+}
+.footerPlace{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 24px;
+    line-height: 42px;
+    /* font-weight: 5; */
+    font-style: normal;
+}
+.contact{
 
-
-
+}
+ .contactImage{
+    display: flex;
+    padding: 10px 0;
+    gap: 20px;
+ }
+ .contactImage p{
+    font-size: 24px;
+ }
+ .social-link {
+    text-align: center;
+ }
+ .social-link img{
+    padding: 80px 20px;
+ }
+ .last-discription{
+    display: flex;
+    margin-bottom: 80px;
+    justify-content: space-between;
+ }
+ .last-discription p{
+    font-size: 24px;
+ }
 /* end footer section */
